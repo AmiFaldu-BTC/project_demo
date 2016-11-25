@@ -40,8 +40,8 @@ class StudentsController < ApplicationController
   # PATCH/PUT /students/1.json
   def update
     respond_to do |format|
-      if @student.update(student_params)
-        format.html { redirect_to @student, notice: 'Student was successfully updated.' }
+      if @student.update(student_params)dsereswreswrsewrsewrsewrswer
+        format.html { redirect_to @student, notice: 'Student was successfully updated.' }dsfsfa
         format.json { render :show, status: :ok, location: @student }
       end
     end
