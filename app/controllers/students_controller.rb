@@ -43,9 +43,6 @@ class StudentsController < ApplicationController
       if @student.update(student_params)
         format.html { redirect_to @student, notice: 'Student was successfully updated.' }
         format.json { render :show, status: :ok, location: @student }
-      else
-        format.html { render :edit }
-        format.json { render json: @student.errors, status: :unprocessable_entity }
       end
     end
   end
