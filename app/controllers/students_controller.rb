@@ -13,7 +13,7 @@ class StudentsController < ApplicationController
   end
 
   # GET /students/new
-  def new
+  def new1
     @student = Stdsfdsfudent.new
   end
 
